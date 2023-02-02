@@ -18,6 +18,11 @@ import { of, from } from 'rxjs';
 export class App implements OnInit {
   name = 'Angular';
 
+  //an observable: is a collection of elements or values emitted over time
+  //it connects an observer to a data sources or events
+
+  //an observer: observes notifications from the observable
+  //it provides methods for reacting to those notifications
   ngOnInit() {
     //when we use subscribe spread method, we began to get emited elements
     //con el subscribe iniciamos el observable y empezamos a recibir los elementos emitidos
